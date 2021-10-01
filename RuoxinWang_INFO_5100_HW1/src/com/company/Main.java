@@ -40,9 +40,9 @@ public class Main {
         String magazine2 = "ab";
         String ransomNote3 = "aa";
         String magazine3 = "aab";
-        canConstruct(ransomNote1, magazine1);
-        canConstruct(ransomNote2, magazine2);
-        canConstruct(ransomNote3, magazine3);
+        System.out.println(canConstruct(ransomNote1, magazine1));
+        System.out.println(canConstruct(ransomNote2, magazine2));
+        System.out.println(canConstruct(ransomNote3, magazine3));
 
 
 
@@ -143,18 +143,11 @@ public class Main {
         for(char ch : ransomNote.toCharArray()){
             int count = map.getOrDefault(ch,0) - 1;
             map.put(ch, count);
-            if (count <= 0){
-                System.out.println("False");
-            }else{
-                System.out.println("True");
+            if (count > 0){
+                return true;
             }
-            return false;
         }
-
-        return true;
-
-
-
+        return false;
 
     }//End of Q4
 
