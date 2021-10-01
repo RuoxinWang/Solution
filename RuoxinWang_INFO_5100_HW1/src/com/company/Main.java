@@ -143,11 +143,11 @@ public class Main {
         for(char ch : ransomNote.toCharArray()){
             int count = map.getOrDefault(ch,0) - 1;
             map.put(ch, count);
-            if (count > 0){
-                return true;
+            if (count < 0){
+                return false;
             }
         }
-        return false;
+        return true;
 
     }//End of Q4
 
