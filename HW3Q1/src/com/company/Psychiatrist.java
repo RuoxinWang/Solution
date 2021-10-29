@@ -1,8 +1,6 @@
 package com.company;
 
 public class Psychiatrist {
-
-
     public void examine(Moody moodyObject) {
         System.out.println(moodyObject.getMood());
     }

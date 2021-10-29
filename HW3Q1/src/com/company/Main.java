@@ -2,18 +2,18 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-        Moody happy = new Happy("Obj1");
-        Moody sad = new Sad("Obj2");
+        Moody happyMoody = new Happy("Obj1");
+        Moody sadMoody = new Sad("Obj2");
         Psychiatrist newPsy = new Psychiatrist();
         //Happy
         newPsy.toString();
-        newPsy.examine(happy);
-        happy.expressFeelings();
-        newPsy.observe(happy);
+        newPsy.examine(happyMoody);
+        happyMoody.expressFeelings();
+        newPsy.observe(happyMoody);
         //Sad
         newPsy.toString();
-        newPsy.examine(sad);
-        sad.expressFeelings();
-        newPsy.observe(sad);
+        newPsy.examine(sadMoody);
+        sadMoody.expressFeelings();
+        newPsy.observe(sadMoody);
     }
 }

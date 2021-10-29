@@ -2,7 +2,6 @@ package com.company;
 
 public class Happy extends Moody{
     public String name;
-
     public Happy(String name) {
         this.name = name;
     }
@@ -15,7 +14,7 @@ public class Happy extends Moody{
 
     @Override
     public void expressFeelings() {
-        System.out.println("heeehee….hahahah…HAHAHA!!");
+        System.out.println("heeeheehe….hahahahahaha…HAHAHA!!");
     }
 
     public String toString() {
