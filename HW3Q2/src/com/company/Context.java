@@ -5,8 +5,8 @@ public class Context {
     public Context(MathOperation operation) {
         this.operation = operation;
     }
-    public int execute(int num1, int num2) {
-        int result = operation.performOperation(num1, num2);
-        return result;
+    public int execute(int n1, int n2) {
+        int res = operation.performOperation(n1, n2);
+        return res;
     }
 }

@@ -1,5 +1,5 @@
 package com.company;
 
 public interface MathOperation {
-    public int performOperation(int num1, int num2);
+    public int performOperation(int n1, int n2);
 }
