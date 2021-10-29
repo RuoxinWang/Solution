@@ -9,7 +9,7 @@ public class Happy extends Moody{
 
     @Override
     public String getMood() {
-        return "I feel happy Today";
+        return "I feel Happy Today";
     }
 
     @Override
