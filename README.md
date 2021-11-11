@@ -13,4 +13,4 @@
 
 ## HW4
 1. [Q1](https://github.com/RuoxinWang/Solution/tree/main/HW4Question1)
-2. [Q2]()https://github.com/RuoxinWang/Solution/tree/main/HW4Question2
+2. [Q2](https://github.com/RuoxinWang/Solution/tree/main/HW4Question2)
