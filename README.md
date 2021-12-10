@@ -19,3 +19,7 @@
 1. [Q1](https://github.com/RuoxinWang/Solution/tree/main/HW5/Q1)
 2. [Q2](https://github.com/RuoxinWang/Solution/tree/main/HW5/Q2)
 3. [Q3](https://github.com/RuoxinWang/Solution/tree/main/HW5/Q3)
+
+## HW6
+1. [Q1](https://github.com/RuoxinWang/Solution/tree/main/HW6/Q1)
+2. [Q2](https://github.com/RuoxinWang/Solution/tree/main/HW6/Q2)
